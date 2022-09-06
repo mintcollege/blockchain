@@ -20,6 +20,11 @@ contract Shows {
         doctor = _doctor;
     }
 
+    /* VERY VERY SENSITIVE FUNCTION HERE */
+    function changeOwner(address newowner) public onlyOwner {
+        owner = newowner;
+    }
+
     modifier onlyOwner() {
         require(msg.sender == owner, "You are not the owner");
         _;
