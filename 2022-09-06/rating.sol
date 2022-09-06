@@ -11,20 +11,6 @@ pragma solidity ^0.8.9;
 - Update movie title            DONE
 */
 
-/*
-DATA SAVING:
-- On-chain: Data meant to be on the blockchain
-- Off-chain: Not on the blockchain
-
-Options where to save data other than the blockchain:
-- Database
-- Cookie
-- Cache
-- File
-- etc...
-*/
-
-
 contract SeriesRating {
 
     struct Movie {
