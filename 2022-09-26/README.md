@@ -52,9 +52,9 @@ for(i=0;i<expes.length;i++)
 This will:
 ```solidity
 for(uint i; i < expes.length; i++) {
-    Expense memory exp = expes[i];
-    if(exp.id == id) {
-        return (exp.mostExpense, exp.lessExpense);
+    Expense memory expense = expes[i];
+    if(expense.id == id) {
+        return (expense.mostExpense, expense.lessExpense);
     }
 }
 ```
@@ -63,20 +63,12 @@ for(uint i; i < expes.length; i++) {
 #### Return values:
 
 ```solidity
-// This can be shortened:
-
-string memory _return;
-
-if(_amount > 100) {
-    _return = "Too expensive";
+if(_amount >= 10) {
+    return "Too expensive";
 } 
 else if (_amount < 10){
-    _return = "Cheap";
-}else {
-    _return = "To expensive";
+    return "Cheap";
 }
-
-return _return;
 ```
 
 
