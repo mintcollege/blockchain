@@ -5,7 +5,7 @@ contract Message {
     uint public targetAmount = 123;
     uint public totalFunds;
 
-    function helloMessage() external onlyOwner pure returns (string memory) {
+    function helloMessage() external pure returns (string memory) {
         // Complex with other logic
         return 'Hello there!';
     }
