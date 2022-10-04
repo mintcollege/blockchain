@@ -1,28 +1,13 @@
+# Sample Hardhat Project
 
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
+Try running some of the following tasks:
 
-Testing in JS
-- **Unit Tests:** Test per function
-- **Integration Tests:** A Collection of unit tests
-
-```js
-// Sample function in need of testing
-
-const register = (username, password) => {
-    // User Registers in...
-    
-    /*
-    * THINGS TO CHECK:
-    * - See if the buttons work
-    * - Is the password hidden?
-    * - Is it a valid email
-    * - Login session time
-    * - If username/email/phone, it must be unique
-    * - Have you already registered? Or are you unverified?
-    * - Does your password contain letters, numbers, and special characters?
-    * - Is your password more than 15 characters?
-    * - Is your IP a blacklisted IP?
-    *
-    * */
-}
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
 ```
