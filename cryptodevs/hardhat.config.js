@@ -1,4 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config({ path: __dirname + '/.env' })
+
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -14,11 +16,14 @@ module.exports = {
   networks: {
     localhost: {
       chainId: 31337,
-      accounts: ["private key here"]
+      accounts: [process.env.TESTNET_PRIVATE_KEY]
     },
     goerli: {
-      url: "url here",
-      accounts: ["private key here"]
+      url: process.env.GOERLI_URL,
+      accounts: [process.env.TESTNET_PRIVATE_KEY]
     }
-  }
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
+  },
 };

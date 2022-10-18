@@ -9,6 +9,20 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 //import "Compute.sol";
 
 
+/*
+Benefits of the Activity Contract
+
+1. Buy cafeteria food
+2. Recieve coins by submitting completed activities
+3. Every activity is 5 coins
+4. On time + 1 coin
+5. Late no plus coin
+6. Perfect score + 2 coins
+
+Name:   Mint Activity
+Symbol: MAC
+*/
+
 contract MintActivity is ERC20, ERC20Burnable, Pausable, Ownable {
     uint _perfectScoreCoins;
     uint _maxAwardableCoins;
