@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "hardhat": "^2.11.2"
   },
   "devDependencies": {
