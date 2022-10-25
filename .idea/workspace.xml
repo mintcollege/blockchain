@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fe4c32-ced8-46dd-bc6b-753f3f873c0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptodevs/contracts/Activity.sol" beforeDir="false" afterPath="$PROJECT_DIR$/cryptodevs/contracts/Activity.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptodevs/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cryptodevs/hardhat.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,8 @@
       <workItem from="1665449993124" duration="10132000" />
       <workItem from="1665478230902" duration="12000" />
       <workItem from="1666053707030" duration="636000" />
-      <workItem from="1666055187241" duration="13720000" />
+      <workItem from="1666055187241" duration="15214000" />
+      <workItem from="1666659748746" duration="6630000" />
     </task>
     <servers />
   </component>
