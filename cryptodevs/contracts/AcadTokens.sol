@@ -82,7 +82,7 @@ contract AcadTokens is ERC20, Pausable, ERC20Burnable, Ownable {
     // TESTME: Untested
     function useTokenTeExtend() external {
         require(students[_msgSender()] == true, "You are not a student.");
-        require(balanceOf(_msgSender()) >= 1, "You do not have enough funds to complete this.");
+        require(balanceOf(_msgSender()) > 10000, "You do not have enough funds to complete this.");
         burn(10000);
     }
 }

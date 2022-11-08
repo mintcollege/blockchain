@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fe4c32-ced8-46dd-bc6b-753f3f873c0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cryptodevs/contracts/AcadTokens.sol" beforeDir="false" afterPath="$PROJECT_DIR$/cryptodevs/contracts/AcadTokens.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1666053707030" duration="636000" />
       <workItem from="1666055187241" duration="15214000" />
       <workItem from="1666659748746" duration="6853000" />
-      <workItem from="1667868684757" duration="10663000" />
+      <workItem from="1667868684757" duration="11096000" />
     </task>
     <servers />
   </component>
