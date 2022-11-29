@@ -1,0 +1,23 @@
+{
+  "name": "Anya",
+  "description": "The esper from SpyxFamily",
+  "image": "ipfs://QmWyhXourhvr54AwCnPd95okNfR7kZGZC8nrLd98CuCgbU/anya.jpg",
+  "attributes": [
+    {
+      "trait_type": "Age",
+      "value": "12"
+    },
+    {
+      "trait_type": "Color",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Favorite food",
+      "value": "Peanuts"
+    },
+    {
+      "trait_type": "Skills",
+      "value": "Esper"
+    }
+  ]
+}

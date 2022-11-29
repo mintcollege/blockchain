@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b8fe4c32-ced8-46dd-bc6b-753f3f873c0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/nft/dragons/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/nft/dragons/1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cryptodevs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/cryptodevs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cryptodevs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cryptodevs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/nft/dragons/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/nft/dragons/dragons.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,9 @@
       <workItem from="1668414531405" duration="40000" />
       <workItem from="1668471960552" duration="5463000" />
       <workItem from="1669076371038" duration="6165000" />
-      <workItem from="1669445569704" duration="2185000" />
+      <workItem from="1669445569704" duration="4051000" />
+      <workItem from="1669681852252" duration="167000" />
+      <workItem from="1669683818821" duration="9839000" />
     </task>
     <servers />
   </component>
