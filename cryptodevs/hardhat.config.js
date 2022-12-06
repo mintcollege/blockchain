@@ -14,10 +14,10 @@ module.exports = {
     }
   },
   networks: {
-    localhost: {
-      chainId: 31337,
-      accounts: [process.env.TESTNET_PRIVATE_KEY]
-    },
+    // localhost: {
+    //   chainId: 31337,
+    //   accounts: [process.env.TESTNET_PRIVATE_KEY]
+    // },
     goerli: {
       url: process.env.GOERLI_URL,
       accounts: [process.env.TESTNET_PRIVATE_KEY]
